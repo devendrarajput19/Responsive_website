@@ -1,3 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+.navbar{
+  background-color: #fff !important;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: darkturquoise !important;
+  margin-left: 10px !important;
+}
+.navbar a {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.menu-active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.navbar a:hover{
+  color : darkturquoise !important;
+}
+@media (max-width: 991px){
+  .navbar-brand{
+    font-size: 1.4rem !important;
+  }
+
+  .menu-active{
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+.brand-name
+{
+  color: darkturquoise;
+  padding-left: 15px !important;
+}
+
+.btn-get-started:hover{
+  background-color: aquamarine;
+  color: black !important; 
+}
+/* 
+---------------- Main Landing Page --------------------------- */
+#header{
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header h2 {
+  font-size: ;
+  color: #484848;
+}
+
+#header .btn-get-started{
+  font-weight: 500px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: black;
+  text-decoration: none;
+  border: 2px solid #3498db;
+}
+.header-img{
+  text-align: right;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both !important;
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+/* -----------------End of Landing page------------------ */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +116,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
