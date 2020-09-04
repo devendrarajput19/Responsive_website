@@ -1,4 +1,5 @@
 import React from 'react';
+import Servicedate from "./Servicedata";
 import Card from "./Card"
 
 const Service = () => {
@@ -12,12 +13,14 @@ const Service = () => {
             <div className="row"> 
                 <div className="col-10 mx-auto">
                   <div className="row gy-4">
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
+                    {
+                      Servicedate.map((val, ind) => {
+                        return <Card key={ind}
+                          imgsrc={val.imgscr}
+                          title={val.title}
+                        />
+                      })
+                    }
                   </div>
                 </div>
 

@@ -102,6 +102,12 @@
 }
 
 /* -----------------End of Landing page------------------ */
+/************************ Contact Page*********************************/
+
+.formsize{
+  width: 50% !important;
+}
+
 
 body {
   margin: 0;
