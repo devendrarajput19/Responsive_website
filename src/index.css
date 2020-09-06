@@ -7,7 +7,7 @@
   font-family: 'Mulish', sans-serif;
 }
 .navbar{
-  background-color: #fff !important;
+  background-color: darkgrey !important;
 }
 .navbar-brand{
   font-size: 1.9rem !important;
@@ -23,7 +23,8 @@
   border-bottom: 1px solid #565387;
 }
 .navbar a:hover{
-  color : darkturquoise !important;
+  color : black !important;
+  font-weight: bold;
 }
 @media (max-width: 991px){
   .navbar-brand{
@@ -106,6 +107,13 @@
 
 .formsize{
   width: 50% !important;
+}
+.contactpage{
+  margin-bottom: 45px !important;
+}
+.footer{
+  padding: 10px 0px 10px 0 !important;
+  background-color: #484848;
 }
 
 
